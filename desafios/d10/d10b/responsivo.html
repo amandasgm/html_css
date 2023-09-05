@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+        main{
+            background-color:white ;
+            padding: 20px;
+            border-radius: 10px;
+
+            min-width: 320px; /*largura maxima que o menor celular possivel pode chegar, entao nosso site alcança no min essa dimensão*/
+            max-width: 800px; /*max largura por conta do nosso conteudo*/
+            margin: auto; /*para que se concentre no centro caso aumentemos a janela*/
+        }
+        img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando responsividade</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum earum omnis explicabo a odio deserunt corrupti, enim rerum nulla quisquam accusamus qui culpa, porro veniam ipsa molestiae suscipit amet delectus.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos officia nam, unde atque omnis consequuntur natus nisi velit illum? Sequi ex repellat libero corrupti autem praesentium veritatis molestias architecto ab.
+        </p>
+
+        <picture>
+            <source media="(max-width: 600px )" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="">
+        </picture>
+    </main>
+</body>
+</html>

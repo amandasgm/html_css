@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: 'Rose';
+    src: url('fontes/Rosehot.ttf') format('truetype');
+    font-weight: normal;
+}
+@font-face{
+    font-family: 'Quick';
+    src: url('fontes/Quicksand_Light.otf') format('opentype');
+    font-weight: bolder;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --esbranquecido: #DBE2E4;
+    --azul_escuro: #6B96A2;
+    --azul_claro: #91CBDB;
+    --cinza: #898E8F;
+    --preto: #585B5C;
+    --font1: 'Quick', cursive;
+    --font2: 'Rose', cursive;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: var(--font2);
+}
+.header1 > nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: auto;
+    padding: 20px;
+    font-family: var(--font1);
+    font-weight: bolder;
+}
+nav > a{
+    font-size: 15px;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+nav > a:hover{
+    color: var(--azul_claro);
+}
+.main1{
+    font-family: var(--font1);
+    background-color:#91CBDB;
+    text-align: center;
+    height: 300px;
+    margin-top: 70px;
+}
+.main1 > h3{
+    text-align: center;
+    margin: auto;
+}
+.header2{
+    font-family: var(--font1);
+    background-color:#91CBDB;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+    height: 150px;
+}
+
