@@ -1,10 +1,33 @@
+@charset "UTF-8";
+
 *{
     margin: 0px;
     padding: 0px;
 }
+
+@font-face {
+    font-family: 'Passion one';
+    src: url(fontes/PassionOne-Regular.ttf) format(truetype);
+    letter-spacing: 3px;
+}
+
+@font-face {
+    font-family: 'Shadows Into Light' ;
+    src: url(fontes/ShadowsIntoLight-Regular.ttf) format(truetype);
+
+}
+
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion one', cursive;
+    --fonte3: 'Shadows Into Light', cursive;
+}
+
+
 html, body{
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--fonte1);
 }
 header{
     background-color: black;
@@ -12,8 +35,12 @@ header{
     text-align: center;
 }
 header > h1{
+    font-size: 10vw;
+    font-family: var(--fonte2);
     padding-top: 50px;
     font-variant: small-caps;
+    letter-spacing: 3px;
+    
 }
 header > p{
     padding-bottom: 50px;
@@ -30,28 +57,26 @@ a:hover{
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 32px;
     padding-left: 30px;
+    font-family: var(--fonte3);
+    font-weight: bolder;
+    font-size: 3vw;
 }
 section.normal{
     background-color: white;
     color: black;
 }
 section.imagem{
-    background-color: red;
+    background-color: rgb(47, 47, 47);
     color: white;
     
 }
 section.imagem > p {
     background-color: rgba(0, 0, 0, 0.596);
-    width: 400px;
-
+    display: inline-block;
+    padding: 10px;
     
 }
-
-
-
-
 
 footer{
     background-color: black;
