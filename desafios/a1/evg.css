@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'Caviar Dreams';
+    src: url('fontes/CaviarDreams.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'Louis George Cafe';
+    src: url('fontes/Louis\ George\ Cafe.ttf') format(truetype);
+}
+:root{
+    --titulos: 'Caviar Dreams', cursive;
+    --padrão: 'Louis George Cafe', cursive;
+    --cor1: #5A6987;
+    --cor2: #A1ABB3;
+    --cor3: #D0D9D4;
+    --cor4: #F2EFDD;
+    --cor5: #FFC699;
+}
+
+body{
+    background-color: #c0cbd5;
+}
+
+header{
+    background-color: #000000;
+    max-width: 1050px; /* largura maxima de que a janela chega */
+    height: 200px;
+}
+header a {
+    font-family: var(--padrão);
+    text-decoration:  none;
+    padding-right: 50px;
+    color: #F2EFDD;
+    text-align: center;
+    font-size: 13px;
+
+}
+
+header a:hover {
+    color: #5A6987;
+}
+
+header > p {
+    text-align: center;
+    border: 2px solid #F2EFDD ;
+    margin: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
