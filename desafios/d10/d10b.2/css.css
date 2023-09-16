@@ -56,9 +56,9 @@ header > a{
     color: white;
     font-size: 17px;
     font-family: var(--fonte_titulo);
-
-    
+      
 }
+
 header > a:hover{
     background-color: #FFC699;
     transition-duration: 0.5s;
