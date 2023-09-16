@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de frames</title>
+    <style>
+        body{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        iframe{
+            width: 95vw;
+            border: 2px solid black;
+            height: 300px;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit neque quae, ratione fuga maiores possimus illum sapiente obcaecati tenetur culpa tempora architecto alias dignissimos placeat vitae voluptatibus? Numquam, tempore nisi!</p>
+
+    <ul>
+        <li><a href="pag001.html" target="frame">Primeira pagina</a></li>
+        <li><a href="pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti itaque repellat, laboriosam similique dolorem obcaecati sequi, placeat temporibus id cupiditate animi. Aliquid inventore sunt, officia aspernatur aut ipsa numquam fuga?</p>
+
+    <iframe srcdoc="<h1>Esolha uma das opções acima</h1>" name="frame">
+        <p>Infelizmente seu navegador não é compatível com isos.</p>
+    </iframe>
+
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores amet exercitationem temporibus maxime aliquid hic, facere distinctio omnis atque adipisci dolores sed porro quo, labore ea provident rerum totam quod!
+    </p>
+</body>
+</html>
