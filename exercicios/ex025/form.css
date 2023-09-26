@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+
+main{
+    display: block;
+    background-color: #615A58;
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+    width: 400px;
+    border-radius: 20px;  
+    box-shadow: 5px 5px 10px rgb(255, 255, 255);
+}
+.botao{
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    box-shadow: 1px 1px 2px black;
+}
+.botao:hover{
+    background-color: #FACABE;
+    color: white;
+}
+
+fieldset{
+    border-radius: 20px;
+    
+}
+p{
+    padding: 10px;
+
+}
+input > :checked{
+    color: #FACABE;
+}
+
+
