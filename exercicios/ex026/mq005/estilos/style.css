@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Caviar Dreams' ;
+    src: url(../fontes/CaviarDreams.ttf) format(truetype)
+}
+@font-face {
+    font-family: 'Louis';
+    src: url(../fontes/Louis\ George\ Cafe.ttf) format(truetype);
+}
+
+:root{
+    --preto: #484848;
+    --verde: #A1A67C;
+    --rosa_claro:#F2A29B;
+    --rosa_medio: #D95F76;
+    --roda_escuro:#A63352 ;
+    --titulos: 'Caviar Dreams', cursive;
+    --padrão: 'Louis', cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--padrão);
+}
+
+body, html{
+    background-color:rgb(231, 231, 231) ;
+}
+header{
+    background-color: #484848;
+}
+header h1{
+    padding: 10px;
+    text-align: center;
+    font-family: var(--titulos);
+    color: white;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 0px #F2A29B;
+    font-size: 40px;
+}
+span#burguer{
+    background-color: #F2A29B;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 3px;
+}
+span#burguer:hover{
+    color: #484848;
+    cursor: pointer;
+
+}
+nav{
+    display: none;
+}
+nav > ul{
+    list-style-type: none;
+}
+nav > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: white;
+    color: #A63352;
+    text-align: center;
+    border-top: 1px solid #484848;
+}
+nav > ul > li > a:hover{
+    color:#484848;
+    
+}
+main{
+    width: 90vw;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+main > article > h2{
+    padding-bottom: 20px;
+}
+article > p{
+    text-align: justify;
+    margin-bottom: 10px;
+    text-indent: 20px;
+}
+
