@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/*Typical Device Breakpoits pela W3C
+Pequenas telas: até 600px 
+Celular: de 600px até 768px
+Tablet: de 768 até 992px  
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+
+@media screen and (min-width: 768px) {
+      
+    span#burguer {
+        display: none;
+    }  
+    nav{
+        display: block;
+        
+    }
+    nav > ul > li {
+        display: inline-block;    
+        padding: 10px; 
+        padding-bottom: 0px;   
+    }
+    nav > ul > li > a{
+        background-color: #F2A29B;
+        color: white;
+
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px ;
+    }
+    main{
+        width: 768px; /* o main vai aumentar até a tela chegar em 768px, dps disso ela estabiliza */
+    }
+
+}
