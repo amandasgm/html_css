@@ -1,0 +1,86 @@
+/*body *{
+    border:2px solid red;
+}
+*/
+
+@font-face {
+    font-family: "Louis" ;
+    src: url(../fontes/Louis\ George\ Cafe.ttf) format(truetype);
+}
+@font-face {
+    font-family: "Caviar Dreams" ;
+    src: url(../fontes/CaviarDreams.ttf) format(truetype);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+    --nav-bg-color: #5A6987;
+    --nav-text-color: #F2EFDD;
+    --button-bg-color: #FFC699 ;
+    --button-text-color: #F2EFDD;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: 'Louis';
+}
+
+a{
+    text-decoration:none ;
+    font-family: 'Caviar Dreams';
+    font-weight: bolder;
+    color: var(--nav-text-color);
+}
+
+.button{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1rem 1.6rem;
+
+    background-color: var(--button-bg-color);
+    border-radius: .8rem;
+
+    color: var(--button-text-color);
+}
+
+.button:hover{
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+
+    background-color: var(--nav-bg-color);
+    
+    padding: 5px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    color: var(--nav-text-color);
+    gap: 30px;
+}
+
+li:hover{
+    color: #FFC699;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+span{
+    color:var(--button-bg-color);
+    padding-left: 5px;
+    
+}
